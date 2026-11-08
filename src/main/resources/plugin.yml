@@ -1,0 +1,14 @@
+name: AltAlert
+version: '1.0.0'
+main: dev.altalert.AltAlert
+api-version: '1.21'
+folia-supported: true
+description: Allows only one player per IP unless exempted with /aa add
+commands:
+  aa:
+    description: Manage alt account exemptions
+    usage: /aa <add|remove|list> [username]
+    permission: altalert.admin
+permissions:
+  altalert.admin:
+    default: op

@@ -1,0 +1,3 @@
+# Usernames (lowercase) allowed to join even if their IP is already used by someone else
+allowed: []
+kick-message: "<red>Another account has already joined from your IP address.</red>"
